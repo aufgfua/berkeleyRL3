@@ -120,12 +120,12 @@ class QLearningAgent(ReinforcementAgent):
         if(len(self.getLegalActions(state)) == 0):
             return None
         
-        normalMode = util.flipCoin(self.epsilon)
+        randomMode = util.flipCoin(self.epsilon)
 
-        if(normalMode):
-            action = self.computeActionFromQValues(state)
-        else:
+        if(randomMode):
             action = random.choice(legalActions)
+        else:
+            action = self.computeActionFromQValues(state)
             
 
         return action
