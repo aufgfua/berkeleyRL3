@@ -1,4 +1,4 @@
-# berkeleyRL3
+# berkeleyRL3 learning
 Para a versão em Português, siga [este link](https://github.com/andertavares/berkeleyRL3/blob/main/README.pt-br.md).
 
 Python 3 port of the Berkeley Reinforcement Learning assignment. Original material, written in Python 2, is at http://ai.berkeley.edu/reinforcement.html.
